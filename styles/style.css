@@ -80,3 +80,85 @@ header {
     justify-content: center;
     margin-bottom: 120px;
 }
+
+
+.second {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    background-image: url("../assets/images/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    margin-bottom: 120px;
+}
+
+.second-desc {
+    justify-content: center;
+    align-items: center;
+    padding: 126px 0px 142px 126px;
+}
+
+.second-desc h1{
+    color: #FFFFFF;
+    font-size: 64px;
+    font-weight: Black;
+    font-family: Merriweather;
+    margin-bottom: 24px;
+}
+
+.second-pera {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Inter;
+    color: #FFFFFF;
+    margin-bottom: 48px;
+}
+
+.second-desc .btn {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Inter;
+    border: none;
+    padding: 2px;
+    background: transparent;
+    color: #FFFFFF;
+}
+
+.second .welcome {
+    padding: 68px 140px 68px 100px;
+}
+
+/* Section three */
+
+section .three {
+    text-align: center;
+}
+
+.three-div {
+    text-align: center;
+    padding: 100px 350px 110px 350px;
+}
+
+.three-div p {
+    color: #070211;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: Inter;
+    margin-bottom: 30px;
+}
+
+.three-desc {
+    color: #FF0000;
+}
+
+.three-btn {
+    background-color: #FF0000;
+    padding: 16px 32px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+}
