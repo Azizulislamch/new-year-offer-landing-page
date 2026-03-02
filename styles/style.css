@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+/* Merriweather */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* Inter */
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 50px 140px 0px 140px;
+}
+
+/* Header */
+
+header {
+    background-image: linear-gradient(to bottom, rgb(29, 29, 31) 0%, rgba(11, 11, 54, 0.4) 100%),
+        url("../assets/images/Banner\ Image.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.banner {
+    text-align: center;
+    padding: 177px 344px;
+}
+
+.banner h3 {
+    color: #FFFFFF;
+    font-size: 32px;
+    font-family: Merriweather;
+}
+
+.banner h1 {
+    color: #FFFFFF;
+    font-size: 72px;
+    font-family: Merriweather;
+}
+
+
+.first {
+    text-align: center;
+    padding: 120px 258px;
+}
+
+.first h1{
+    margin-bottom: 48px;
+    font-size: 88px;
+    font-weight: bold;
+    color: #FF0000;
+    font-family: Inter;
+}
+
+.first .desc1 {
+   margin-bottom: 16px;
+   font-size: 24px;
+   font-family: Inter;
+   color: #FF0000;
+   font-weight: 500;
+}
+
+.first .desc2 {
+    margin-bottom: 48px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #070211;
+    font-family: Inter;
+}
+
+.first-img {
+    justify-content: center;
+    margin-bottom: 120px;
+}
