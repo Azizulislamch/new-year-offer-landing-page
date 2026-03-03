@@ -137,6 +137,13 @@ header {
 
 /* Section three */
 
+.three {
+    background: linear-gradient(to top, 
+    #FF0000 0%, transparent 0%, #FF0000 1000%);
+    border-radius: 16px;
+    margin-bottom: 120px;
+}
+
 section .three {
     text-align: center;
     margin-bottom: 120px;
