@@ -175,3 +175,39 @@ section .three {
     border: none;
     border-radius: 8px;
 }
+
+
+/* Section Four */
+
+.four {
+    display: flex;
+    gap: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comming-soon h3 {
+    font-family: Inter;
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: medium;
+    margin-bottom: 16px;
+}
+
+.comming-soon h1 {
+    font-family: Merriweather;
+    color: #070211;
+    font-size: 48px;
+    font-weight: black;
+    margin-bottom: 22px;
+}
+
+.comming-soon p {
+    font-family: Inter;
+    color: #070211;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 32px;
+    margin-bottom: 22px;
+}
+
