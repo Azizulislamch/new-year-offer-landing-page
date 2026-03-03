@@ -18,8 +18,8 @@ body {
 
 header {
     background-image: linear-gradient(to top,
-    #070211 0%,transparent 0%,
-    #070211 100% ),
+            #070211 0%, transparent 0%,
+            #070211 100%),
         url("../assets/images/Banner\ Image.png");
     background-size: cover;
     background-position: center;
@@ -54,7 +54,7 @@ header {
     padding: 120px 258px;
 }
 
-.first h1{
+.first h1 {
     margin-bottom: 48px;
     font-size: 88px;
     font-weight: bold;
@@ -63,11 +63,11 @@ header {
 }
 
 .first .desc1 {
-   margin-bottom: 16px;
-   font-size: 24px;
-   font-family: Inter;
-   color: #FF0000;
-   font-weight: 500;
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-family: Inter;
+    color: #FF0000;
+    font-weight: 500;
 }
 
 .first .desc2 {
@@ -90,8 +90,8 @@ header {
     align-items: center;
     gap: 40px;
     background-image: linear-gradient(to left,
-    #070211 0%,transparent 0%,
-    #070211 100% ), url("../assets/images/Vectorrr.png");
+            #070211 0%, transparent 0%,
+            #070211 100%), url("../assets/images/Vectorrr.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -105,7 +105,7 @@ header {
     padding: 126px 0px 142px 126px;
 }
 
-.second-desc h1{
+.second-desc h1 {
     color: #FFFFFF;
     font-size: 64px;
     font-weight: Black;
@@ -138,8 +138,8 @@ header {
 /* Section three */
 
 .three {
-    background: linear-gradient(to top, 
-    #FF0000 0%, transparent 0%, #FF0000 1000%);
+    background: linear-gradient(to top,
+            #FF0000 0%, transparent 0%, #FF0000 1000%);
     border-radius: 16px;
     margin-bottom: 120px;
 }
@@ -181,9 +181,10 @@ section .three {
 
 .four {
     display: flex;
-    gap: 70px;
+    gap: 50px;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 120px;
 }
 
 .comming-soon h3 {
@@ -216,6 +217,7 @@ section .three {
     font-family: Inter;
     font-weight: bold;
     font-size: 48px;
+    margin-bottom: 16px;
 }
 
 .new-year p {
@@ -223,4 +225,53 @@ section .three {
     font-family: Inter;
     font-weight: normal;
     font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 43px;
+}
+
+/* Section Five */
+
+.five {
+    margin-bottom: 120px;
+}
+
+.holidays {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.holidays h3 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: medium;
+    margin-bottom: 16px;
+}
+
+.holidays h1 {
+    color: #070211;
+    font-size: 72px;
+    font-family: Merriweather;
+    font-weight: black;
+    margin-bottom: 28px;
+}
+
+.holi-red {
+    color: #FF0000;
+}
+
+.holidays p {
+    color: #070211;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: medium;
+    line-height: 32px;
+    margin-bottom: 64px;
+}
+
+.holi-img {
+    display: flex;
+    justify-content: center;
+    background: #FF0000;
 }
