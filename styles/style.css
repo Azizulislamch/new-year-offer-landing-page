@@ -275,3 +275,49 @@ section .three {
     justify-content: center;
     background: #FF0000;
 }
+
+
+/* Section Six */
+
+.six {
+    margin-bottom: 120px;
+}
+
+.awesome {
+    margin-bottom: 48px;
+}
+
+.awesome h3 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: medium;;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+
+.awesome h1 {
+    color: #070211;
+    font-weight: black;
+    font-family: Merriweather;
+    font-size: 48px;
+    margin-bottom: 22px;
+}
+
+.awesome p {
+    font-family: Inter;
+    font-weight: normal;
+    font-size: 20px;
+    color: #070211;
+}
+
+.six-img1 {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.six-img2 {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
