@@ -326,7 +326,9 @@ section .three {
 /* Section Seven */
 
 .seven {
-    justify-content: center;
+    background: #faecec;
+    border-radius: 16px;
+    padding: 80px;
     margin-bottom: 120px;
 }
 
@@ -353,7 +355,53 @@ section .three {
     font-family: Inter;
     font-weight: normal;
     font-size: 20px;
-    margin-bottom: 22px;
     margin-bottom: 48px;
 }
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe-box {
+  display: flex;
+  align-items: center;
+  width: 420px;
+  background: #ffffff;
+  border-radius: 50px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.subscribe-box input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 14px 20px;
+  font-size: 14px;
+  border-radius: 50px 0 0 50px;
+}
+
+.subscribe-box input::placeholder {
+  color: #999;
+  font-family: Inter;
+  font-size: 18px;
+}
+
+.subscribe-box button {
+  border: none;
+  background: #ff0000;
+  color: #fff;
+  padding: 14px 28px;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 0 50px 50px 0;
+}
+
+.subscribe-box button:hover {
+  background: #FF0000;
+}
+
 
