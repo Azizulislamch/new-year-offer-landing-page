@@ -321,3 +321,39 @@ section .three {
     gap: 24px;
     margin-bottom: 24px;
 }
+
+
+/* Section Seven */
+
+.seven {
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.subscribe {
+    text-align: center;
+}
+
+.subscribe img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 40px;
+}
+
+.subscribe h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-weight: black;
+    font-size: 48px;
+    margin-bottom: 22px;
+}
+
+.subscribe p {
+    color: #070211;
+    font-family: Inter;
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 22px;
+    margin-bottom: 48px;
+}
+
