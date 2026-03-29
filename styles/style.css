@@ -10,27 +10,22 @@
 body {
     font-family: 'Inter', sans-serif;
     color: #070211;
-    overflow-x: hidden;
-    /* বডিতে বড় মার্জিন দিলে মোবাইল ভিউ নষ্ট হয়, তাই কন্টেনার ব্যবহার করা ভালো */
+}
+
+.Merriweather {
+    font-family: 'Merriweather', serif;
 }
 
 /* Common Layout Helper */
-section, .header {
+header, main {
     max-width: 1320px;
-    margin: 0 auto 120px auto;
-    padding: 0 20px;
+    margin: 0 auto;
 }
 
-/* Header & Banner */
-.header {
-    margin-top: 50px;
-}
-
+/* Banner */
 .banner {
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.4) 100%), 
-                url("../assets/images/Banner\ Image.png");
+    background: linear-gradient(180deg, rgba(7, 2, 17, 1) 0%, rgba(7, 2, 17, 0) 100%), url("../assets/images/Banner\ Image.png");
     background-size: cover;
-    background-position: center;
     height: 600px;
     display: flex;
     flex-direction: column;
@@ -38,157 +33,324 @@ section, .header {
     align-items: center;
     text-align: center;
     border-radius: 16px;
-    color: #fff;
+    color: #FFFFFF;
+    margin-top: 50px;
 }
 
 .banner h3 {
-    font-family: 'Merriweather', serif;
-    font-size: clamp(20px, 4vw, 32px);
-    margin-bottom: 10px;
+    font-size: 32px;
+    margin-bottom: 16px;
 }
 
 .banner h1 {
-    font-family: 'Merriweather', serif;
-    font-size: clamp(35px, 7vw, 72px);
-    line-height: 1.2;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
 }
+
 
 /* Section One: 65% OFF */
 .first {
+    margin-top: 120px;
     text-align: center;
 }
 
 .first h1 {
-    font-size: clamp(50px, 10vw, 88px);
+    font-size: 88px;
     color: #FF0000;
-    margin-bottom: 16px;
+    font-weight: 700;
+    margin-bottom: 48px;
 }
 
-.first .desc1 {
+.desc1 {
     color: #FF0000;
     font-size: 24px;
     font-weight: 500;
+    margin-bottom: 16px;
 }
 
-.first .desc2 {
-    font-size: clamp(24px, 5vw, 48px);
+.desc2 {
+    font-size: 48px;
     font-weight: 700;
-    margin-bottom: 40px;
+    margin-bottom: 48px;
 }
 
 .first-img {
     width: 100%;
-    max-width: 800px;
+    max-width: 802px;
 }
+
 
 /* Section Two: Welcome Party */
 .second {
-    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.5) 100%), 
-                url("../assets/images/Vectorrr.png");
+    background: linear-gradient(90deg, rgba(7, 2, 17, 1) 0%, rgba(7, 2, 17, 0) 100%), url("../assets/images/Vectorrr.png");
+
     background-size: cover;
     border-radius: 16px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 60px;
+    padding: 70px 130px;
     gap: 40px;
-    color: #fff;
-}
-
-.second-desc {
-    flex: 1;
+    color: #FFFFFF;
+    margin-top: 120px;
 }
 
 .second-desc h1 {
-    font-family: 'Merriweather', serif;
-    font-size: clamp(30px, 5vw, 64px);
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
     margin-bottom: 24px;
 }
 
 .second-pera {
-    margin-bottom: 30px;
-    max-width: 500px;
+    margin-bottom: 18px;
+    line-height: 30px;
+    margin-bottom: 48px;
 }
 
 .btn {
     background: transparent;
-    color: #fff;
+    color: #FFFFFF;
     border: none;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 20px;
     cursor: pointer;
 }
 
-.welcome {
-    max-width: 100%;
+.welcome-img {
+    max-width: 320px;
     height: auto;
 }
+
 
 /* Section Three: Place & Time */
 .three {
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.1) 0%, rgba(255, 0, 0, 0) 100%);
-    padding: 100px 20px;
+    
+    padding: 105px;
     text-align: center;
     border-radius: 16px;
+    margin-top: 120px;
 }
 
 .three-div p {
-    font-size: clamp(18px, 3vw, 32px);
-    font-weight: 700;
-    margin-bottom: 15px;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 18px;
 }
 
 .three-desc { color: #FF0000; }
 
 .three-btn {
     background: #FF0000;
-    color: #fff;
+    color: #FFFFFF;
     padding: 16px 32px;
     border-radius: 8px;
     border: none;
     font-weight: bold;
-    margin-top: 30px;
+    font-size: 20px;
+    margin-top: 48px;
     cursor: pointer;
 }
+
 
 /* Section Four: Coming Soon */
 .four {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 30px;
+    gap: 70px;
+    margin-top: 120px;
 }
 
-.comming-soon, .new-year { flex: 1; }
+.comming-soon, circle, .new-year { 
+    flex: 1; 
+}
 
-.comming-soon h1 { font-family: 'Merriweather', serif; font-size: 48px; }
-.new-year h1 { color: #FF0000; font-size: 48px; }
+.comming-soon h3 {  
+    font-size: 24px; 
+    margin-bottom: 16px;
+    font-weight: 500;
+    color: #FF0000;
+}
+
+.comming-soon h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #070211;
+    margin-bottom: 22px;
+}
+
+.comming-soon p {
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    line-height: 32px;
+}
+
+.circle {
+    border: 15px solid #FF0000;
+    border-radius: 50%;
+    padding: 35px;
+}
+
+.new-year {
+    max-width: 276px;
+}
+
+.new-year h1 { 
+    color: #FF0000; 
+    font-size: 48px; 
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.new-year p {
+    font-size: 20px;
+    line-height: 32px;
+    color: rgba(7, 2, 17, 0.6);
+    margin-bottom: 43px;
+}
+
+
+/* Section Five: Holidays */
+.five {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.holidays {
+    max-width: 1068px;
+    margin: 0 auto 64px;
+}
+
+.holidays h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #070211;
+    margin-bottom: 16px;
+}
+
+.holidays h1 {
+    font-size: 72px;
+    font-weight: 900;
+    color: #070211;
+    margin-bottom: 28px;
+}
+
+.holi-red {
+    color: #FF0000;
+}
+
+.holidays p {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.holi-img {
+    display: flex;
+    gap: 177px;
+    width: 100%;
+}
+
+.gift {
+    width: 100%;
+    object-fit: contain;
+}
+
+.holi-img-part {
+    position: relative;
+}
+
+.rect-red {
+    position: absolute;
+    top: 430px;
+    z-index: -1;
+    width: 100%;
+}
+
 
 /* Section Six: Portfolio Gallery */
-.six-img1, .six-img2 {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 24px;
-    margin-top: 24px;
+.six {
+    margin-top: 120px;
 }
 
-.six-img1 img, .six-img2 img {
+.awesome h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+
+.awesome h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #070211;
+    margin-bottom: 22px;
+}
+
+.awesome p {
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    margin-bottom: 48px;
+}
+
+.six-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
     width: 100%;
     border-radius: 16px;
 }
 
+.six-img {
+    transition: 1s;
+}
+
+.six-img img:hover {
+    transform: translateY(-10px);
+}
+
+
 /* Section Seven: Subscribe */
 .seven {
-    background: #faecec;
+    background: rgba(255, 0, 0, 0.05);
     border-radius: 16px;
-    padding: 80px 20px;
     text-align: center;
+    margin-top: 120px;
+    padding: 80px 0;
+}
+
+.subscribe {
+    max-width: 890px;
+    margin: 0 auto;
+}
+
+.subscribe img {
+    margin-bottom: 40px;
+}
+
+.subscribe h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #070211;
+    margin-bottom: 22px;
+}
+
+.subscribe p {
+    font-size: 20px;
+    line-height: 32px;
+    color: rgba(7, 2, 17, 0.6);
+    margin-bottom: 48px;
 }
 
 .subscribe-box {
     display: flex;
-    max-width: 600px;
-    margin: 40px auto 0;
+    max-width: 50%;
+    margin: 0 auto;
     background: #fff;
     border-radius: 50px;
     overflow: hidden;
@@ -196,9 +358,10 @@ section, .header {
 
 .subscribe-box input {
     flex: 1;
-    padding: 20px;
+    padding: 30px;
     border: none;
     outline: none;
+    font-size: 22px;
 }
 
 .subscribe-box button {
@@ -206,41 +369,261 @@ section, .header {
     color: #fff;
     padding: 0 30px;
     border: none;
-    font-weight: bold;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 /* Footer */
 .footer-container {
     background: #070211;
-    color: #fff;
-    padding: 100px 20px;
+    color: #FFFFFF;
+    padding: 120px;
     text-align: center;
+    margin-top: 120px;
 }
 
-.footer-content {
-    max-width: 1140px;
-    margin: 0 auto;
+.footer-upper {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.address {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.website, .phone {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 24px;
 }
 
 .contact {
     display: flex;
-    justify-content: center;
-    gap: 40px;
-    margin: 30px 0;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.footer-hr {
-    border: 0.5px solid rgba(255, 255, 255, 0.1);
-    margin: 40px 0;
+.icons {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 48px;
 }
+
+.unsub {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.unsub button {
+    background: #070211;
+    color: #FFFFFF;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+}
+
 
 /* Responsive Design (Mobile) */
 @media (max-width: 768px) {
-    section, .header { margin-bottom: 60px; }
-    .second { flex-direction: column; padding: 40px 20px; }
-    .four { flex-direction: column; text-align: center; }
-    .subscribe-box { flex-direction: column; background: transparent; }
-    .subscribe-box input { border-radius: 50px; margin-bottom: 10px; }
-    .subscribe-box button { border-radius: 50px; padding: 15px; }
-    .contact { flex-direction: column; gap: 10px; }
+    .banner {
+        width: 90%;
+        height: 200px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 40px 20px 0;
+    }
+
+    .banner h3 {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    .banner h1 {
+        font-size: 32px;
+        line-height: 45px;
+        margin-bottom: 32px;
+    }
+
+    .first {
+        margin: 40px 20px 0;
+    }
+
+    .first h1 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .desc1 {
+        
+        font-size: 16px;
+    }
+    .desc2 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .second { 
+        margin: 40px 20px 0;
+        flex-direction: column-reverse; 
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .second-desc h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .welcome-img{
+        width: 50%;
+    }
+
+    .three {
+        margin: 40px 20px 0;
+        padding: 40px 30px;
+    }
+
+    .three-div p {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .three-btn {
+        margin-top: 20px;
+    }
+
+    .four { 
+        flex-direction: column; 
+        text-align: center; 
+        padding: 0 20px;
+    }
+
+    .circle img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .five {
+        padding: 0 20px;
+        margin-top: 80px;
+        overflow: hidden;
+    }
+
+    .holidays {
+        margin: 0;
+    }
+
+    .holidays h3 {
+        font-size: 20px;
+    }
+
+    .holidays h1 {
+        font-size: 36px;
+    }
+
+    .holi-img {
+        flex-direction: column-reverse;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .gift, .discount {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .gift img, .discount img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .rect-red {
+        position: absolute;
+        top: auto;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: -1;
+    }
+
+    .rect-red img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .six {
+        padding: 0 20px;
+    }
+
+    .awesome h1 {
+        font-size: 36px;
+    }
+
+    .six-img {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    .six-img img {
+        width: 100%;
+    }
+
+    .seven {
+        padding: 50px 20px;
+    }
+
+    .subscribe h1 {
+        font-size: 32px;
+    }
+
+    .subscribe-box { 
+        max-width: 100%;
+        flex-direction: column; 
+        max-width: 100%;
+        background: transparent; 
+        overflow: visible;
+        gap: 20px;
+    }
+    .subscribe-box input { 
+        border-radius: 50px; 
+        width: 100%;
+        padding: 15px 20px;
+        box-sizing: border-box;
+    }
+
+    .subscribe-box button { 
+        width: 100%;
+        padding: 15px 0;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+
+    .footer-container {
+        padding: 50px 20px;
+        font-size: 16px;
+    }
+
+    .address {
+        text-align: center;
+    }
+
+    .footer-upper, .unsub {
+        flex-direction: column;
+        gap: 30px;
+    }
 }
